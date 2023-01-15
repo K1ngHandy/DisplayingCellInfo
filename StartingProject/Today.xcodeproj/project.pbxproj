@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D7640852974A8D900A63A3A /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D7640842974A8D900A63A3A /* ReminderListViewController+DataSource.swift */; };
 		6DE72CE729738836000DF4A2 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE72CE629738836000DF4A2 /* Date+Today.swift */; };
 		7C46B00A27BEEEEF00AA93B4 /* Configuration in Resources */ = {isa = PBXBuildFile; fileRef = 7C46B00927BEEEEF00AA93B4 /* Configuration */; };
 		7C46B00C27BEEF1800AA93B4 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 7C46B00B27BEEF1800AA93B4 /* LICENSE */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6D7640842974A8D900A63A3A /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
 		6DE72CE629738836000DF4A2 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
 		7C46B00927BEEEEF00AA93B4 /* Configuration */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Configuration; sourceTree = SOURCE_ROOT; };
 		7C46B00B27BEEF1800AA93B4 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
@@ -49,6 +51,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D7640832974A89A00A63A3A /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7CB07720270FAA1C0042FB15 /* ReminderListViewController.swift */,
+				6D7640842974A8D900A63A3A /* ReminderListViewController+DataSource.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
 		7CB07710270FAA1C0042FB15 = {
 			isa = PBXGroup;
 			children = (
@@ -72,7 +83,7 @@
 				7CB07730270FAEE10042FB15 /* Models */,
 				7CB0771C270FAA1C0042FB15 /* AppDelegate.swift */,
 				7CB0771E270FAA1C0042FB15 /* SceneDelegate.swift */,
-				7CB07720270FAA1C0042FB15 /* ReminderListViewController.swift */,
+				6D7640832974A89A00A63A3A /* ListViewController */,
 				7CB07722270FAA1C0042FB15 /* Main.storyboard */,
 				7CB07725270FAA1F0042FB15 /* Assets.xcassets */,
 				7CB07727270FAA1F0042FB15 /* LaunchScreen.storyboard */,
@@ -171,6 +182,7 @@
 				7CB0771D270FAA1C0042FB15 /* AppDelegate.swift in Sources */,
 				7CB0773627179CBF0042FB15 /* UIColor+Today.swift in Sources */,
 				6DE72CE729738836000DF4A2 /* Date+Today.swift in Sources */,
+				6D7640852974A8D900A63A3A /* ReminderListViewController+DataSource.swift in Sources */,
 				7CB0771F270FAA1C0042FB15 /* SceneDelegate.swift in Sources */,
 				7CB07732270FAF0E0042FB15 /* Reminder.swift in Sources */,
 			);
